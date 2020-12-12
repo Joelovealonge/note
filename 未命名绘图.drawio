@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-12T02:39:18.339Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="jCFkBLq834zk4veRTy18" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-12T02:52:00.548Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="_rQVEZrPwbDlXVeOmEcC" version="14.0.1" type="github">
   <diagram id="CidMBvIP4f-NS0v2727S" name="Page-1">
     <mxGraphModel dx="1502" dy="1844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,8 +70,8 @@
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_ueLWcWFyqZesx51SNEB-23" value="ClassPathBeanDefinitionScanner&lt;br&gt;能够扫描一个包，类，并转换成bd" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;strokeWidth=2;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="950" y="430" width="220" height="40" as="geometry" />
+        <mxCell id="_ueLWcWFyqZesx51SNEB-23" value="ClassPathBeanDefinitionScanner&lt;br&gt;能够扫描一个包，类，并转换成bd，&lt;br&gt;注意：AnnotationConfigApplicationContext中new的这个扫描器，只是用来我们在外部使用AnnotationConfigApplicationContext.sacn()扫描一个类或者包，&lt;br&gt;而真正扫描项目中的包和类是由AnnotatedBeanDefinitionReader，new出来的一个ClassPathBeanDefinitionScanner完成的。" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;strokeWidth=2;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="950" y="420" width="340" height="120" as="geometry" />
         </mxCell>
         <mxCell id="_ueLWcWFyqZesx51SNEB-24" value="BeanDefinitionHolder&lt;br&gt;就是一个map，&lt;br&gt;方便传参，简称bdh" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeColor=#0066CC;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="330" y="-120" width="180" height="90" as="geometry" />
@@ -119,7 +119,7 @@
           <mxGeometry x="425" y="300" width="185" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_ueLWcWFyqZesx51SNEB-43" value="&lt;font color=&quot;#000000&quot;&gt;BeanDefinitionMap&lt;br&gt;是一个map，&lt;br&gt;以beanName为key，bd为value&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B09500;strokeWidth=2;fillColor=#e3c800;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="950" y="510" width="200" height="60" as="geometry" />
+          <mxGeometry x="950" y="555" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_ueLWcWFyqZesx51SNEB-44" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#C73500;strokeWidth=2;fillColor=#fa6800;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="300" y="360" width="130" height="170" as="geometry" />
@@ -228,6 +228,9 @@
         </mxCell>
         <mxCell id="QpV1V6VSBO6eqogt99Tp-38" value="getBeanNamesForType&lt;br&gt;beanFactory中的一个方法，&lt;br&gt;通过类型得到一个beanName，&lt;br&gt;这里的type指的是class类型" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=#000000;fillColor=#009900;" vertex="1" parent="1">
           <mxGeometry x="950" y="140" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QpV1V6VSBO6eqogt99Tp-39" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=#000000;fillColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-200" width="80" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

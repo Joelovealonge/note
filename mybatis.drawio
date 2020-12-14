@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T06:18:07.939Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="oAGn1RxdNlUIxuyEQQBe" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-14T06:25:40.676Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="u34wEM7CS3rQLAlMTp8X" version="14.0.1" type="github">
   <diagram id="i4KYgiebfwat7C1hVrY_" name="第 1 页">
     <mxGraphModel dx="1354" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,12 +18,6 @@
         </mxCell>
         <mxCell id="KpY1hoOAe1zwFHPsv5PR-5" value="MapperFactoryBean&lt;br&gt;object3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="155" y="290" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KpY1hoOAe1zwFHPsv5PR-6" value="MapperFactoryBean&lt;br&gt;object4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="155" y="370" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KpY1hoOAe1zwFHPsv5PR-7" value="MapperFactoryBean&lt;br&gt;object5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="155" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KpY1hoOAe1zwFHPsv5PR-8" value="spring容器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="910" y="110" width="120" height="60" as="geometry" />
@@ -49,11 +43,24 @@
         <mxCell id="KpY1hoOAe1zwFHPsv5PR-15" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="35" y="690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sIb3lXgmJXXaX1wp9RCB-2" value="init" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="110" width="120" height="60" as="geometry" />
+        <mxCell id="sIb3lXgmJXXaX1wp9RCB-5" value="parse" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sIb3lXgmJXXaX1wp9RCB-2" target="sIb3lXgmJXXaX1wp9RCB-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sIb3lXgmJXXaX1wp9RCB-3" value="SqlSessionTemplate,&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="230" width="120" height="60" as="geometry" />
+        <mxCell id="sIb3lXgmJXXaX1wp9RCB-2" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#333333&quot; face=&quot;open sans, clear sans, helvetica neue, helvetica, arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;Initalization#&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#333333&quot; face=&quot;open sans, clear sans, helvetica neue, helvetica, arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;afterPropertiesSet()&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="110" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sIb3lXgmJXXaX1wp9RCB-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sIb3lXgmJXXaX1wp9RCB-3" target="sIb3lXgmJXXaX1wp9RCB-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIb3lXgmJXXaX1wp9RCB-3" value="mapper&lt;br&gt;method&lt;br&gt;annotation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sIb3lXgmJXXaX1wp9RCB-6" value="singletonObjects&amp;lt;k,v&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="110" y="390" width="210" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

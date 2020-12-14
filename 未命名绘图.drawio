@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T03:26:44.466Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="VNGssBukzCqaSVBQnK8x" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-14T13:22:30.620Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ZP0nf8sVXm5rM2me4P5b" version="14.0.1" type="github">
   <diagram id="CidMBvIP4f-NS0v2727S" name="Page-1">
-    <mxGraphModel dx="2503" dy="2294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1934" dy="1848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,7 +30,7 @@
         <mxCell id="_ueLWcWFyqZesx51SNEB-11" value="spring环境中的一个工厂&lt;span style=&quot;font-size: 13px&quot;&gt;DefaultListableBeanFactory&lt;br&gt;&lt;/span&gt;如果要产生bean就需要原料和相应的机器" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#CC00CC;" parent="1" vertex="1">
           <mxGeometry x="680" y="70" width="230" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QtkPJycpUKXicVEQzF9f-3" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;strokeWidth=1;" edge="1" parent="1" source="_ueLWcWFyqZesx51SNEB-13" target="QtkPJycpUKXicVEQzF9f-1">
+        <mxCell id="QtkPJycpUKXicVEQzF9f-3" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;strokeWidth=1;" parent="1" source="_ueLWcWFyqZesx51SNEB-13" target="QtkPJycpUKXicVEQzF9f-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="300" y="310" />
@@ -41,7 +41,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QtkPJycpUKXicVEQzF9f-4" value="Object" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QtkPJycpUKXicVEQzF9f-3">
+        <mxCell id="QtkPJycpUKXicVEQzF9f-4" value="Object" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QtkPJycpUKXicVEQzF9f-3" vertex="1" connectable="0">
           <mxGeometry x="-0.1295" y="5" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -128,10 +128,10 @@
         <mxCell id="_ueLWcWFyqZesx51SNEB-38" value="appconfig&lt;br&gt;bd" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0066CC;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="425" y="140" width="185" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QtkPJycpUKXicVEQzF9f-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="_ueLWcWFyqZesx51SNEB-39" target="QpV1V6VSBO6eqogt99Tp-11">
+        <mxCell id="QtkPJycpUKXicVEQzF9f-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" parent="1" source="_ueLWcWFyqZesx51SNEB-39" target="QpV1V6VSBO6eqogt99Tp-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QtkPJycpUKXicVEQzF9f-11" value="这个类特别重要，参与BeanFactory的建设" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QtkPJycpUKXicVEQzF9f-10">
+        <mxCell id="QtkPJycpUKXicVEQzF9f-11" value="这个类特别重要，参与BeanFactory的建设" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QtkPJycpUKXicVEQzF9f-10" vertex="1" connectable="0">
           <mxGeometry x="0.3718" y="-18" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -256,31 +256,31 @@
         <mxCell id="QpV1V6VSBO6eqogt99Tp-39" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=#000000;fillColor=#009900;" parent="1" vertex="1">
           <mxGeometry x="160" y="-200" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="QtkPJycpUKXicVEQzF9f-1" value="singletonObjects&amp;lt;k,v&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="QtkPJycpUKXicVEQzF9f-1" value="singletonObjects&amp;lt;k,v&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="300" y="610" width="310" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="QtkPJycpUKXicVEQzF9f-2" value="BeanPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QtkPJycpUKXicVEQzF9f-2" value="BeanPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="135" y="460" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QtkPJycpUKXicVEQzF9f-6" style="orthogonalLoop=1;jettySize=auto;html=1;entryX=0.37;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="QtkPJycpUKXicVEQzF9f-5" target="QtkPJycpUKXicVEQzF9f-1">
+        <mxCell id="QtkPJycpUKXicVEQzF9f-6" style="orthogonalLoop=1;jettySize=auto;html=1;entryX=0.37;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="1" source="QtkPJycpUKXicVEQzF9f-5" target="QtkPJycpUKXicVEQzF9f-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QtkPJycpUKXicVEQzF9f-5" value="ac.getBean()，&lt;br&gt;就是从单例池中get一个bean" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QtkPJycpUKXicVEQzF9f-5" value="ac.getBean()，&lt;br&gt;就是从单例池中get一个bean" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="790" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QtkPJycpUKXicVEQzF9f-7" value="singletonObjects,&lt;br&gt;完整的bean的单例池" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="QtkPJycpUKXicVEQzF9f-7" value="singletonObjects,&lt;br&gt;完整的bean的单例池" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1510" y="390" width="310" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="QtkPJycpUKXicVEQzF9f-12" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+        <mxCell id="QtkPJycpUKXicVEQzF9f-12" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
           <mxGeometry x="500" y="965" width="120" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="QtkPJycpUKXicVEQzF9f-13" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=25;entryDy=0;entryPerimeter=0;strokeWidth=1;exitX=0.006;exitY=0.269;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QpV1V6VSBO6eqogt99Tp-26" target="QtkPJycpUKXicVEQzF9f-12">
+        <mxCell id="QtkPJycpUKXicVEQzF9f-13" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=25;entryDy=0;entryPerimeter=0;strokeWidth=1;exitX=0.006;exitY=0.269;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="QpV1V6VSBO6eqogt99Tp-26" target="QtkPJycpUKXicVEQzF9f-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QtkPJycpUKXicVEQzF9f-14" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+        <mxCell id="QtkPJycpUKXicVEQzF9f-14" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
           <mxGeometry x="670" y="1010" width="220" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="QtkPJycpUKXicVEQzF9f-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;exitX=-0.006;exitY=0.723;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QpV1V6VSBO6eqogt99Tp-26" target="QtkPJycpUKXicVEQzF9f-14">
+        <mxCell id="QtkPJycpUKXicVEQzF9f-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;exitX=-0.006;exitY=0.723;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="QpV1V6VSBO6eqogt99Tp-26" target="QtkPJycpUKXicVEQzF9f-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>

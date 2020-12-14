@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T06:25:40.676Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="u34wEM7CS3rQLAlMTp8X" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-14T06:28:36.785Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="vrDv1I5AEEUgf7DFLXbG" version="14.0.1" type="github">
   <diagram id="i4KYgiebfwat7C1hVrY_" name="第 1 页">
     <mxGraphModel dx="1354" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,6 +61,9 @@
         </mxCell>
         <mxCell id="sIb3lXgmJXXaX1wp9RCB-6" value="singletonObjects&amp;lt;k,v&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="110" y="390" width="210" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="sIb3lXgmJXXaX1wp9RCB-8" value="mybatis流程TODO，需要看源码" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="570" y="205" width="80" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

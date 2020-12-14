@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T05:00:17.628Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.0.1" etag="ex10I2lQOLVcYxKRHoQR" type="github"><diagram id="i4KYgiebfwat7C1hVrY_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-14T05:07:24.860Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="PhSA8pcC-NYCbyhmcz61" version="14.0.1" type="github">
+  <diagram id="i4KYgiebfwat7C1hVrY_" name="第 1 页">
+    <mxGraphModel dx="1324" dy="239" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KpY1hoOAe1zwFHPsv5PR-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="100" y="75" width="230" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="KpY1hoOAe1zwFHPsv5PR-3" value="MapperFactoryBean&lt;br&gt;object1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="155" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KpY1hoOAe1zwFHPsv5PR-4" value="MapperFactoryBean&lt;br&gt;object2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="155" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KpY1hoOAe1zwFHPsv5PR-5" value="MapperFactoryBean&lt;br&gt;object3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="155" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KpY1hoOAe1zwFHPsv5PR-6" value="MapperFactoryBean&lt;br&gt;object4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="155" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KpY1hoOAe1zwFHPsv5PR-7" value="MapperFactoryBean&lt;br&gt;object5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="155" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KpY1hoOAe1zwFHPsv5PR-8" value="spring容器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="590" y="75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KpY1hoOAe1zwFHPsv5PR-9" value="每一个mapper接口都对应一个，MapperFactoryBean&lt;br&gt;object，&lt;br&gt;通过getObjects()｛&lt;br&gt;getSqlSession.getMapper()&lt;br&gt;｝产生一个代理对象" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="588" y="170" width="152" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KpY1hoOAe1zwFHPsv5PR-10" value="SqlSessionTemplate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

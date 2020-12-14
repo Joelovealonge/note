@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T12:19:18.453Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="YBSc0mxxD4dnbJbH-Cnx" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-14T12:56:37.416Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="SVqzcruTG6fjqsId3tfU" version="14.0.1" type="github">
   <diagram id="i4KYgiebfwat7C1hVrY_" name="第 1 页">
     <mxGraphModel dx="1354" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,6 +79,9 @@
         </mxCell>
         <mxCell id="sIb3lXgmJXXaX1wp9RCB-14" value="&lt;pre style=&quot;background-color: #282a36 ; color: #f8f8f2 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #78dce8&quot;&gt;MapperScannerRegistrar#&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: #282a36 ; color: #f8f8f2 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #50fa7b&quot;&gt;registerBeanDefinitions&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1290" y="565" width="300" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="sIb3lXgmJXXaX1wp9RCB-15" value="&lt;pre style=&quot;background-color: #282a36 ; color: #f8f8f2 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #50fa78 ; font-style: italic&quot;&gt;genericBeanDefinition&lt;/span&gt;(&lt;span style=&quot;color: #78dce8&quot;&gt;MapperScannerConfigurer&lt;/span&gt;.&lt;span style=&quot;color: #ff79c6&quot;&gt;class&lt;/span&gt;)&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="565" width="400" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

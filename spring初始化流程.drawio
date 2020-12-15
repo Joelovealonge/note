@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T05:27:37.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="kkLn30Xa-hDNGgG-rLax" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-15T06:51:43.093Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="FlujG9QnPbQr4b6rgeps" version="14.0.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2329" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -366,8 +366,8 @@
         <mxCell id="w_0owPLdBcyDqOKvkbEA-10" value="可以动态改变一个bd，&lt;br&gt;registerBeanDefinitions()方法可以得到&lt;br&gt;BeanDefinitionRegistry，&lt;br&gt;故而可以动态添加bd，也可以改变bd&lt;br&gt;经典应用：&lt;br&gt;mybatis的mapperScan。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1840" y="2840" width="272.25" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="S8H_MGkvmwuUi4jEvwLL-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1330" y="920" width="120" height="60" as="geometry" />
+        <mxCell id="S8H_MGkvmwuUi4jEvwLL-1" value="5、&lt;span style=&quot;color: rgb(80 , 250 , 120) ; background-color: rgb(40 , 42 , 54) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;registerBeanPostProcessors&lt;br&gt;添加后置处理器（&lt;/span&gt;&lt;span style=&quot;color: rgb(80 , 250 , 120) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 14px ; background-color: rgb(40 , 42 , 54)&quot;&gt;6个&lt;/span&gt;&lt;span style=&quot;color: rgb(80 , 250 , 120) ; background-color: rgb(40 , 42 , 54) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;），不包括aspectj&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1240" y="920" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

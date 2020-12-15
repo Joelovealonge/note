@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T07:12:13.148Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="RBJO2oVpfI7nl-TdZSMd" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-15T07:41:04.004Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="TSZKdIvI8TROG9fgOzY0" version="14.0.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2329" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -370,7 +370,7 @@
           <mxGeometry x="1240" y="920" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S8H_MGkvmwuUi4jEvwLL-2" value="&lt;span style=&quot;color: rgb(80 , 250 , 120) ; background-color: rgb(40 , 42 , 54) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;@EnableAspectJ，给spring容器中添加了一个后置处理器，用来产生代理对象&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="879" y="1200" width="290" height="60" as="geometry" />
+          <mxGeometry x="889" y="1280" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S8H_MGkvmwuUi4jEvwLL-4" value="&lt;pre style=&quot;text-align: left ; background-color: rgb(40 , 42 , 54) ; color: rgb(248 , 248 , 242) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: rgb(80 , 250 , 120)&quot;&gt;6、finishBeanFactoryInitialization()&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;text-align: left ; background-color: rgb(40 , 42 , 54) ; color: rgb(248 , 248 , 242) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: rgb(80 , 250 , 120)&quot;&gt;实例化Bean&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1210" y="1180" width="290" height="60" as="geometry" />
@@ -390,8 +390,11 @@
         <mxCell id="S8H_MGkvmwuUi4jEvwLL-10" value="&lt;pre style=&quot;background-color: #282a36 ; color: #f8f8f2 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1550" y="1670" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="S8H_MGkvmwuUi4jEvwLL-11" value="&lt;pre style=&quot;text-align: left ; background-color: rgb(40 , 42 , 54) ; color: rgb(248 , 248 , 242) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: rgb(80 , 250 , 120)&quot;&gt;getSingleton()&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1760" y="1500" width="290" height="60" as="geometry" />
+        <mxCell id="S8H_MGkvmwuUi4jEvwLL-11" value="&#xa;&#xa;&lt;pre style=&quot;color: rgb(0 , 0 , 0) ; font-size: 10.5pt ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(40 , 42 , 54) ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;&lt;pre style=&quot;color: rgb(248 , 248 , 242) ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: rgb(80 , 250 , 120)&quot;&gt;getSingleton(),&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 10.5pt&quot;&gt;&lt;font color=&quot;#50fa78&quot;&gt;实例化，第一次为空，spring在实例化的过程中，&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 10.5pt&quot;&gt;&lt;font color=&quot;#50fa78&quot;&gt;先去判断容器中有没有，如果没有才去实例化，&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 10.5pt&quot;&gt;&lt;font color=&quot;#50fa78&quot;&gt;否则，直接拿。&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1730" y="1540" width="350" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="S8H_MGkvmwuUi4jEvwLL-12" value="&lt;span style=&quot;color: rgb(80 , 250 , 120) ; background-color: rgb(40 , 42 , 54) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;spring aop 默认使用jdk动态代理&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="889" y="1320" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

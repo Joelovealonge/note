@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T06:56:31.778Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="v0ru0uQfFV9GbFrI1L8V" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-15T07:06:09.379Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="f_ESgEiY7jd5yFYQuXb1" version="14.0.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2329" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -368,6 +368,12 @@
         </mxCell>
         <mxCell id="S8H_MGkvmwuUi4jEvwLL-1" value="5、&lt;span style=&quot;color: rgb(80 , 250 , 120) ; background-color: rgb(40 , 42 , 54) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;registerBeanPostProcessors&lt;br&gt;添加后置处理器&lt;/span&gt;&lt;span style=&quot;color: rgb(80 , 250 , 120) ; background-color: rgb(40 , 42 , 54) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1240" y="920" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S8H_MGkvmwuUi4jEvwLL-2" value="&lt;span style=&quot;color: rgb(80 , 250 , 120) ; background-color: rgb(40 , 42 , 54) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;@EnableAspectJ，给spring容器中添加了一个后置处理器，用来产生代理对象&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="879" y="1200" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S8H_MGkvmwuUi4jEvwLL-4" value="&lt;pre style=&quot;text-align: left ; background-color: rgb(40 , 42 , 54) ; color: rgb(248 , 248 , 242) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: rgb(80 , 250 , 120)&quot;&gt;6、finishBeanFactoryInitialization&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;text-align: left ; background-color: rgb(40 , 42 , 54) ; color: rgb(248 , 248 , 242) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: rgb(80 , 250 , 120)&quot;&gt;实例化Bean&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1240" y="1090" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

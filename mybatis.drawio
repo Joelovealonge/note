@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T03:30:37.339Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="vKw-sf9YbRFNHOTKbFYv" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-15T04:16:27.554Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="WHe8SnLE0yQvFwxeTmgL" version="14.0.1" type="github">
   <diagram id="i4KYgiebfwat7C1hVrY_" name="第 1 页">
-    <mxGraphModel dx="1252" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1356" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,8 +104,11 @@
         <mxCell id="06g8zPCFTcqzL4ExOGdd-8" value="&lt;pre style=&quot;font-size: 10.5pt ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;i&gt;MapperFactoryBean,&lt;/i&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;i&gt;的getObjects() 方法中完成了代理&lt;/i&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1120" y="1030" width="400" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="06g8zPCFTcqzL4ExOGdd-9" value="&lt;pre style=&quot;font-size: 10.5pt ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;i&gt;UserMapper 如何和MapperFactoryBean产生关联的呢？&lt;/i&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="1169" width="400" height="75" as="geometry" />
+        <mxCell id="06g8zPCFTcqzL4ExOGdd-9" value="&lt;pre style=&quot;font-size: 10.5pt ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;i&gt;UserMapper 是在哪儿和MapperFactoryBean产生关联的呢？&lt;/i&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1169" width="400" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="06g8zPCFTcqzL4ExOGdd-10" value="&lt;pre style=&quot;font-size: 10.5pt ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;i&gt;ClassPathMapperScanner#&lt;/i&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;background-color: #282a36 ; color: #f8f8f2 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #50fa78&quot;&gt;postProcessBeanDefinition&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1310" width="400" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

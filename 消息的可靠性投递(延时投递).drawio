@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-20T06:58:23.621Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Sq-4-3LJOvSySZgB3pYm" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-20T06:59:23.709Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="HNjks27BKnQtaT_bGDcj" version="14.1.1" type="github">
   <diagram id="yDS4dz2NpTgTqiB2fNgC" name="第 1 页">
     <mxGraphModel dx="1502" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,7 +43,7 @@
         <mxCell id="0Xas0d5VHqiwTMKEoYdL-15" value="3. 发送延时检查消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="610" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0Xas0d5VHqiwTMKEoYdL-18" value="&lt;font color=&quot;#99ffff&quot;&gt;4. 消费&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="0Xas0d5VHqiwTMKEoYdL-18" value="4. 消费" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="695" y="320" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0Xas0d5VHqiwTMKEoYdL-20" value="5. 发送确认消费消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
@@ -53,9 +53,8 @@
           <mxGeometry x="0.4118" y="10" relative="1" as="geometry">
             <mxPoint x="560" y="310" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="560" y="225" />
-              <mxPoint x="570" y="225" />
-              <mxPoint x="570" y="310" />
+              <mxPoint x="560" y="290" />
+              <mxPoint x="560" y="290" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -72,7 +71,7 @@
         <mxCell id="0Xas0d5VHqiwTMKEoYdL-22" value="CallBack&lt;br&gt;回调检查服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="365" y="80" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0Xas0d5VHqiwTMKEoYdL-25" value="&lt;font color=&quot;#00ffff&quot;&gt;7. 入库第五步确认消费的消息&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="0Xas0d5VHqiwTMKEoYdL-25" value="7. 入库第五步确认消费的消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="625" y="90" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0Xas0d5VHqiwTMKEoYdL-27" value="8. 监听延时检查消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">

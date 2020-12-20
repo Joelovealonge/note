@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-20T06:02:03.620Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="vhmJ6ccmfdYSnYZs8BRI" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-20T06:04:18.915Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="5VrwkE1x3UqxoM9kSTMB" version="14.1.1" type="github">
   <diagram id="gbhnheyR5VKLEo0fLliC" name="第 1 页">
-    <mxGraphModel dx="1368" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1502" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,6 +99,9 @@
         </mxCell>
         <mxCell id="odurVu-BpZ1vZmtzO7_A-40" value="7. 重试次数 &amp;gt; 3 status:2 表示需要人工补偿" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="225" y="670" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="odurVu-BpZ1vZmtzO7_A-41" value="分布式任务定时扫描状态为0的消息" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="100" y="740" width="80" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

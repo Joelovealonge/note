@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-20T10:39:48.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="RaZhjtd43_af79EnemcE" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-20T10:40:40.721Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="nJ3-hLW5qkgsDsd8Teme" version="14.1.1" type="github">
   <diagram id="nnbTUbRkCqWMNNhiExVG" name="第 1 页">
     <mxGraphModel dx="1502" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -102,13 +102,13 @@
         <mxCell id="_EzliqTFEORfsLsRU7bn-32" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;queue3&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="333.75" y="760" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_EzliqTFEORfsLsRU7bn-35" value="消费者1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_EzliqTFEORfsLsRU7bn-35" value="消费者1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="560" y="600" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_EzliqTFEORfsLsRU7bn-36" value="消费者2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_EzliqTFEORfsLsRU7bn-36" value="消费者2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="560" y="680" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_EzliqTFEORfsLsRU7bn-37" value="消费者3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_EzliqTFEORfsLsRU7bn-37" value="消费者3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="560" y="760" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_EzliqTFEORfsLsRU7bn-41" value="消费端根据id，进行hash到不同的队列中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">

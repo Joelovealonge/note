@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-20T10:33:02.679Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="EA0882DwKYlwJtCITMWe" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-20T10:33:37.838Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="-LWWoSrvnBpgNIAJ4c8L" version="14.1.1" type="github">
   <diagram id="nnbTUbRkCqWMNNhiExVG" name="第 1 页">
     <mxGraphModel dx="1502" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,11 +34,20 @@
         <mxCell id="_EzliqTFEORfsLsRU7bn-8" value="消费者" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="560" y="270" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="_EzliqTFEORfsLsRU7bn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_EzliqTFEORfsLsRU7bn-10" target="_EzliqTFEORfsLsRU7bn-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_EzliqTFEORfsLsRU7bn-10" value="内存队列1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="160" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="_EzliqTFEORfsLsRU7bn-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_EzliqTFEORfsLsRU7bn-11" target="_EzliqTFEORfsLsRU7bn-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_EzliqTFEORfsLsRU7bn-11" value="内存队列2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_EzliqTFEORfsLsRU7bn-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_EzliqTFEORfsLsRU7bn-12" target="_EzliqTFEORfsLsRU7bn-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_EzliqTFEORfsLsRU7bn-12" value="内存队列3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="380" width="120" height="60" as="geometry" />

@@ -1,1 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2020-12-20T07:12:57.716Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.1.1" etag="Gj3y4Mm4X9LeDuU7tBH7" type="github"><diagram id="XzN5fem2FNUhKub6Wipa">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-20T07:20:44.235Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="dNKH7r87kxVkje_scQLx" version="14.1.1" type="github">
+  <diagram id="XzN5fem2FNUhKub6Wipa" name="第 1 页">
+    <mxGraphModel dx="1368" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hlLO9QC2N9rjPSgwPKo6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.327;entryY=0.111;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hlLO9QC2N9rjPSgwPKo6-3" target="hlLO9QC2N9rjPSgwPKo6-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLO9QC2N9rjPSgwPKo6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="hlLO9QC2N9rjPSgwPKo6-3" target="hlLO9QC2N9rjPSgwPKo6-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLO9QC2N9rjPSgwPKo6-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="hlLO9QC2N9rjPSgwPKo6-3" target="hlLO9QC2N9rjPSgwPKo6-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLO9QC2N9rjPSgwPKo6-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.827;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hlLO9QC2N9rjPSgwPKo6-3" target="hlLO9QC2N9rjPSgwPKo6-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLO9QC2N9rjPSgwPKo6-23" value="6. mq服务将落地消息删除" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hlLO9QC2N9rjPSgwPKo6-22">
+          <mxGeometry x="0.2873" y="2" relative="1" as="geometry">
+            <mxPoint x="29.99" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hlLO9QC2N9rjPSgwPKo6-3" value="MQ server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="370" y="260" width="104" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLO9QC2N9rjPSgwPKo6-6" value="1. 生产者发送消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="270" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLO9QC2N9rjPSgwPKo6-9" value="2. mq服务器把消息落地" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="390" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLO9QC2N9rjPSgwPKo6-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="hlLO9QC2N9rjPSgwPKo6-11" target="hlLO9QC2N9rjPSgwPKo6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLO9QC2N9rjPSgwPKo6-11" value="生产者" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="130" y="260" width="104" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLO9QC2N9rjPSgwPKo6-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="hlLO9QC2N9rjPSgwPKo6-12" target="hlLO9QC2N9rjPSgwPKo6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLO9QC2N9rjPSgwPKo6-12" value="消费者" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="590" y="260" width="104" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLO9QC2N9rjPSgwPKo6-13" value="mq存储数据&lt;br&gt;db（磁盘文件）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="362" y="480" width="104" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLO9QC2N9rjPSgwPKo6-17" value="3. mq向生产者发送ack" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="320" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLO9QC2N9rjPSgwPKo6-19" value="4. 消费者消费消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="270" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLO9QC2N9rjPSgwPKo6-21" value="5. 消费者发送ack" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="320" width="110" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

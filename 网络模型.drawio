@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2020-12-21T07:33:07.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.1.1" etag="Nl0c5z9Hdp1lGbdj75dN" type="github"><diagram id="yCzem2oj4ZcsZaK_mE4D">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-21T07:38:16.353Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="16_lx08d5VIMYXctRHMu" version="14.1.1" type="github">
+  <diagram id="yCzem2oj4ZcsZaK_mE4D" name="第 1 页">
+    <mxGraphModel dx="1356" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jx5T1Pv5mwgT5sgSQQlJ-1" value="应用层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jx5T1Pv5mwgT5sgSQQlJ-3" value="表示层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jx5T1Pv5mwgT5sgSQQlJ-4" value="会话层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="270" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jx5T1Pv5mwgT5sgSQQlJ-5" value="传输层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="310" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jx5T1Pv5mwgT5sgSQQlJ-6" value="网络层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="350" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jx5T1Pv5mwgT5sgSQQlJ-7" value="数据链路层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="390" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jx5T1Pv5mwgT5sgSQQlJ-8" value="物理层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="430" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jx5T1Pv5mwgT5sgSQQlJ-10" value="应用层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="200" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jx5T1Pv5mwgT5sgSQQlJ-11" value="传输层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="310" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jx5T1Pv5mwgT5sgSQQlJ-12" value="网络层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="350" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jx5T1Pv5mwgT5sgSQQlJ-13" value="网络接口层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="390" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jx5T1Pv5mwgT5sgSQQlJ-14" value="OSI模型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="160" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jx5T1Pv5mwgT5sgSQQlJ-15" value="TCP/IP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="160" width="60" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

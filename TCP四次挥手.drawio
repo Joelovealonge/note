@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2020-12-21T08:49:13.011Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.1.1" etag="WLxsSDJiQKmpYBG55em8" type="github"><diagram id="4GjuGYTROJrnTDxaSVQC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-21T09:39:52.776Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="L9y1ShajCgklfLZLC7nC" version="14.1.1" type="github">
+  <diagram id="4GjuGYTROJrnTDxaSVQC" name="第 1 页">
+    <mxGraphModel dx="1131" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tEgwXULQFU38ch7aCph6-1" value="客服端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEgwXULQFU38ch7aCph6-3" value="服务端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEgwXULQFU38ch7aCph6-4" value="" style="shape=link;html=1;exitX=0.438;exitY=0.977;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tEgwXULQFU38ch7aCph6-1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="250" y="320" as="sourcePoint" />
+            <mxPoint x="213" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEgwXULQFU38ch7aCph6-5" value="" style="shape=link;html=1;exitX=0.438;exitY=0.977;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="629.5" y="220" as="sourcePoint" />
+            <mxPoint x="629.94" y="661.38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEgwXULQFU38ch7aCph6-6" value="客服端发送，&lt;br&gt;FIN+Ack报文，&lt;br&gt;并置发送序号为X" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="245" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tEgwXULQFU38ch7aCph6-7" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="260" as="sourcePoint" />
+            <mxPoint x="630" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEgwXULQFU38ch7aCph6-8" value="FIN=1，Ack=Z，Seq=X" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="250" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tEgwXULQFU38ch7aCph6-9" value="服务端发送，&lt;br&gt;ACK报文，并置发送序号为Z，&lt;br&gt;确认序号为X+1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="310" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tEgwXULQFU38ch7aCph6-10" value="" style="endArrow=classic;html=1;exitX=-0.021;exitY=0.844;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tEgwXULQFU38ch7aCph6-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="350" as="sourcePoint" />
+            <mxPoint x="210" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEgwXULQFU38ch7aCph6-11" value="ACK=X=1，Seq=Z" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tEgwXULQFU38ch7aCph6-12" value="" style="endArrow=classic;html=1;exitX=-0.021;exitY=0.844;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="440.00000000000006" as="sourcePoint" />
+            <mxPoint x="213.78" y="497.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEgwXULQFU38ch7aCph6-13" value="服务端发送，&lt;br&gt;FIN+Ack报文，&lt;br&gt;并置发送序号为Y&lt;br&gt;确认序号为X" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="410" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEgwXULQFU38ch7aCph6-14" value="FIN=1，ACK=X，Seq=Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="450" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tEgwXULQFU38ch7aCph6-15" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="570" as="sourcePoint" />
+            <mxPoint x="630" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

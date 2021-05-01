@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2021-05-01T03:15:27.940Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" version="14.6.6" etag="jRFDVjOdv3RTvkcBGbJX" type="github"><diagram id="gSYyNqRnGWI2TPrJgrtZ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-01T03:26:38.259Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="Zyqu1XtpJxzbtdIWvvxU" version="14.6.6" type="github">
+  <diagram id="gSYyNqRnGWI2TPrJgrtZ" name="第 1 页">
+    <mxGraphModel dx="1410" dy="1834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="STchm8m0HPpIuNh_q-wR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="STchm8m0HPpIuNh_q-wR-2" target="STchm8m0HPpIuNh_q-wR-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STchm8m0HPpIuNh_q-wR-2" value="jul" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="STchm8m0HPpIuNh_q-wR-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="STchm8m0HPpIuNh_q-wR-3" target="STchm8m0HPpIuNh_q-wR-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STchm8m0HPpIuNh_q-wR-3" value="jcl 抽象的" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="STchm8m0HPpIuNh_q-wR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="STchm8m0HPpIuNh_q-wR-5" target="STchm8m0HPpIuNh_q-wR-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STchm8m0HPpIuNh_q-wR-5" value="log4j" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="STchm8m0HPpIuNh_q-wR-7" value="log日志" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="220" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="STchm8m0HPpIuNh_q-wR-8" value="log日志" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="220" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="STchm8m0HPpIuNh_q-wR-10" value="直接记录日志" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="75" y="170" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="STchm8m0HPpIuNh_q-wR-12" value="直接记录日志" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="170" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="STchm8m0HPpIuNh_q-wR-14" value="通过switch依次选择日志实现技术" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="180" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="STchm8m0HPpIuNh_q-wR-18" value="缺点：&lt;br&gt;app1，使用jul记录日志，&lt;br&gt;app2，使用log4j记录日志&lt;br&gt;日志格式很难统一，很混乱" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-50" width="80" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="STchm8m0HPpIuNh_q-wR-20" value="如果使用jcl，那么，需要使用log4j记录日志的时候添加依赖就可以了。使用jul，则去掉log4j依赖" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-60" width="100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="STchm8m0HPpIuNh_q-wR-21" value="slf4j" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
